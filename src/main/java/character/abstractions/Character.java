@@ -2,7 +2,7 @@ package character.abstractions;
 
 import character.interfaces.Attackable;
 
-public abstract class Character implements Attackable {
+public abstract class Character {
     private String name;
     private int agility;
     private int health;

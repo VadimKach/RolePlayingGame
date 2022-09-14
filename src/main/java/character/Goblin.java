@@ -4,8 +4,8 @@ import character.abstractions.Monster;
 
 public class Goblin extends Monster {
 
-    public Goblin(String name, int agility, int strenght) {
-        super(name, agility, strenght);
+    public Goblin(String name, int agility, int strength) {
+        super(name, agility, strength);
     }
 
     @Override

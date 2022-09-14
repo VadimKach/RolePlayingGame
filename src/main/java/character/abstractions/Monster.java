@@ -1,7 +1,9 @@
 package character.abstractions;
 
-public abstract class Monster extends Character {
-    public Monster(String name, int agility, int strenght) {
-        super(name, agility, strenght);
+import character.interfaces.Attackable;
+
+public abstract class Monster extends Character  implements Attackable {
+    public Monster(String name, int agility, int strength) {
+        super(name, agility, strength);
     }
 }
